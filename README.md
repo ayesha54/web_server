@@ -6,6 +6,7 @@ where webservers request counter should stop at exactly 100.
 To Run server by using docker file, you must have docker installed.
 Run the following commands.
 ```$xslt
+    git clone git@github.com:ayesha54/web_server.git
     cd web_server
     docker build -t web_server .
     docker run -d -p 8080:8081 --name server web_server
